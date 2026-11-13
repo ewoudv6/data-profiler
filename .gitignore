@@ -1,0 +1,19 @@
+# Virtual environment: big, and only works on the computer that made it.
+# Everyone creates their own from requirements.txt.
+.venv/
+
+# Python's automatic cache files
+__pycache__/
+*.pyc
+
+# Personal practice work and data - not part of the tool
+exercise/
+sales_project/
+
+# Summaries saved with --save or the download button
+*_profile.csv
+
+# Data files: never upload data by accident (it may be private)
+*.csv
+*.xlsx
+*.xls
